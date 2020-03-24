@@ -7,7 +7,7 @@
     <ProjectGuid>{53F03C37-3197-41C7-8DBE-4AC293366270}</ProjectGuid>
     <OutputType>WinExe</OutputType>
     <RootNamespace>GitBranchNameGenerator</RootNamespace>
-    <AssemblyName>GitBranchNameGenerator</AssemblyName>
+    <AssemblyName>Murankowy generator nazwy brancha do Gita</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
