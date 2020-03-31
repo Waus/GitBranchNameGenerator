@@ -7,7 +7,7 @@
     <ProjectGuid>{53F03C37-3197-41C7-8DBE-4AC293366270}</ProjectGuid>
     <OutputType>WinExe</OutputType>
     <RootNamespace>GitBranchNameGenerator</RootNamespace>
-    <AssemblyName>Murankowy generator nazwy brancha do Gita</AssemblyName>
+    <AssemblyName>Murankowy generator nazwy brancha do Git</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -31,6 +31,9 @@
     <DefineConstants>TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>Icon.ico</ApplicationIcon>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -82,6 +85,15 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\Button.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hoho.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Icon.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Icon.ico" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

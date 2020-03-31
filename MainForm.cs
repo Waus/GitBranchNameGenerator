@@ -1,4 +1,5 @@
-﻿using System;
+﻿using GitBranchNameGenerator.Properties;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -18,7 +19,7 @@ namespace GitBranchNameGenerator
             InitializeComponent();
         }
 
-        private void GenerateGitBranchNameBtn_Click(object sender, EventArgs e)
+        private void GenerateGitBranchName()
         {
 
             string type = BugfixRB.Checked ? "bugfix" : FeatureRB.Checked ? "feature" : "";
@@ -41,6 +42,42 @@ namespace GitBranchNameGenerator
 
             if (!String.IsNullOrEmpty(result))
                 Clipboard.SetText(result);
+
+            if (PlaySoundCB.Checked)
+            {
+                System.Media.SoundPlayer player = new System.Media.SoundPlayer(Resources.sound);
+                player.Play();
+            }
+        }
+
+        private void GenerateGitBranchNameBtn_Click(object sender, EventArgs e)
+        {
+            GenerateGitBranchName();
+        }
+
+        private void GenerateGitBranchNameBtn2_Click(object sender, EventArgs e)
+        {
+            GenerateGitBranchName();
+        }
+
+        private void GenerateGitBranchNameBtn3_Click(object sender, EventArgs e)
+        {
+            GenerateGitBranchName();
+        }
+
+        private void GenerateGitBranchNameBtn4_Click(object sender, EventArgs e)
+        {
+            GenerateGitBranchName();
+        }
+
+        private void GenerateGitBranchNameBtn5_Click(object sender, EventArgs e)
+        {
+            GenerateGitBranchName();
+        }
+
+        private void GenerateGitBranchNameBtn6_Click(object sender, EventArgs e)
+        {
+            GenerateGitBranchName();
         }
     }
 }
