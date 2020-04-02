@@ -25,18 +25,26 @@ namespace GitBranchNameGenerator
             string type = BugfixRB.Checked ? "bugfix" : FeatureRB.Checked ? "feature" : "";
 
             string numberWithNoPolishLetters = TaskNumberTB.Text.Trim().ToLower().Replace("ł", "l").Replace("ą", "a").Replace("ę", "e").Replace("ó", "o").Replace("ś", "s").Replace("ź", "z")
-                .Replace("ż", "z").Replace("ń", "n").Replace("ć", "c").Replace(" ", "_"); ;
+                .Replace("ż", "z").Replace("ń", "n").Replace("ć", "c");
             string number = Regex.Replace(numberWithNoPolishLetters.Trim(), "[^A-Za-z0-9 ]", "");
 
             string titleWithNoPolishLetters = TaskTitleTB.Text.Trim().ToLower().Replace("ł", "l").Replace("ą", "a").Replace("ę", "e").Replace("ó", "o").Replace("ś", "s").Replace("ź", "z")
-                .Replace("ż", "z").Replace("ń", "n").Replace("ć", "c").Replace(" ", "_"); ;
-            string title = Regex.Replace(titleWithNoPolishLetters, "[^A-Za-z0-9_]", "");
+                .Replace("ż", "z").Replace("ń", "n").Replace("ć", "c");
+            string title = Regex.Replace(titleWithNoPolishLetters, "[^A-Za-z0-9_]", "_");
 
             string connector1 = !String.IsNullOrEmpty(type) && (!String.IsNullOrEmpty(number) || !String.IsNullOrEmpty(title)) ? "/" : "";
 
             string connector2 = !String.IsNullOrEmpty(number) && !String.IsNullOrEmpty(title) ? "-" : "";
 
             string result = type + connector1 + number + connector2 + title;
+
+            Regex regex = new Regex("[_]{2,}");
+            result = regex.Replace(result, "_");
+
+            if (result.EndsWith("_"))
+            {
+                result = result.Remove(result.Length - 1);
+            }
 
             ResultTB.Text = result;
 

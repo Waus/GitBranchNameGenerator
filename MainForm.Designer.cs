@@ -49,7 +49,7 @@
             // TaskNumberLabel
             // 
             this.TaskNumberLabel.AutoSize = true;
-            this.TaskNumberLabel.Location = new System.Drawing.Point(52, 37);
+            this.TaskNumberLabel.Location = new System.Drawing.Point(53, 49);
             this.TaskNumberLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.TaskNumberLabel.Name = "TaskNumberLabel";
             this.TaskNumberLabel.Size = new System.Drawing.Size(104, 17);
@@ -59,7 +59,7 @@
             // TaskTitleLabel
             // 
             this.TaskTitleLabel.AutoSize = true;
-            this.TaskTitleLabel.Location = new System.Drawing.Point(52, 118);
+            this.TaskTitleLabel.Location = new System.Drawing.Point(52, 127);
             this.TaskTitleLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.TaskTitleLabel.Name = "TaskTitleLabel";
             this.TaskTitleLabel.Size = new System.Drawing.Size(93, 17);
@@ -76,7 +76,7 @@
             // 
             // TaskTitleTB
             // 
-            this.TaskTitleTB.Location = new System.Drawing.Point(56, 154);
+            this.TaskTitleTB.Location = new System.Drawing.Point(56, 148);
             this.TaskTitleTB.Margin = new System.Windows.Forms.Padding(4);
             this.TaskTitleTB.Name = "TaskTitleTB";
             this.TaskTitleTB.Size = new System.Drawing.Size(952, 22);
@@ -85,7 +85,7 @@
             // ResultLabel
             // 
             this.ResultLabel.AutoSize = true;
-            this.ResultLabel.Location = new System.Drawing.Point(53, 392);
+            this.ResultLabel.Location = new System.Drawing.Point(52, 411);
             this.ResultLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.ResultLabel.Name = "ResultLabel";
             this.ResultLabel.Size = new System.Drawing.Size(148, 17);
@@ -160,7 +160,7 @@
             // GenerateGitBranchNameBtn4
             // 
             this.GenerateGitBranchNameBtn4.Image = global::GitBranchNameGenerator.Properties.Resources.Button;
-            this.GenerateGitBranchNameBtn4.Location = new System.Drawing.Point(885, 343);
+            this.GenerateGitBranchNameBtn4.Location = new System.Drawing.Point(874, 325);
             this.GenerateGitBranchNameBtn4.Margin = new System.Windows.Forms.Padding(4);
             this.GenerateGitBranchNameBtn4.Name = "GenerateGitBranchNameBtn4";
             this.GenerateGitBranchNameBtn4.Size = new System.Drawing.Size(76, 66);
