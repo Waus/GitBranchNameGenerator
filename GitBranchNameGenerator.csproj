@@ -91,7 +91,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="icon.ico" />
-    <None Include="Resources\icon.ico" />
+    <Content Include="Resources\Icon.ico" />
     <Content Include="Resources\Ikona do przerobienia na przeźroczystą.png" />
     <Content Include="Resources\Ikona przeźroczysta.bmp" />
     <None Include="Resources\Ikona przeźroczysta.png" />
