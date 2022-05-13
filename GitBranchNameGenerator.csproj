@@ -7,7 +7,7 @@
     <ProjectGuid>{53F03C37-3197-41C7-8DBE-4AC293366270}</ProjectGuid>
     <OutputType>WinExe</OutputType>
     <RootNamespace>GitBranchNameGenerator</RootNamespace>
-    <AssemblyName>GitBranchNameGenerator</AssemblyName>
+    <AssemblyName>Murankowy generator nazwy brancha do Git</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -31,6 +31,9 @@
     <DefineConstants>TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>icon.ico</ApplicationIcon>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -82,6 +85,16 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\Button.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hoho.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="icon.ico" />
+    <None Include="Resources\icon.ico" />
+    <Content Include="Resources\Ikona do przerobienia na przeźroczystą.png" />
+    <Content Include="Resources\Ikona przeźroczysta.bmp" />
+    <None Include="Resources\Ikona przeźroczysta.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
