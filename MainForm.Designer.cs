@@ -121,7 +121,7 @@
             this.FeatureRB.Size = new System.Drawing.Size(144, 21);
             this.FeatureRB.TabIndex = 8;
             this.FeatureRB.TabStop = true;
-            this.FeatureRB.Text = "Wniosek o zmianę";
+            this.FeatureRB.Text = "Zadanie / Wniosek o zmianę";
             this.FeatureRB.UseVisualStyleBackColor = true;
             // 
             // GenerateGitBranchNameBtn5
