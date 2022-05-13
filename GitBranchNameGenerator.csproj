@@ -87,13 +87,11 @@
     <None Include="Resources\Button.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\hoho.wav" />
-  </ItemGroup>
-  <ItemGroup>
     <Content Include="icon.ico" />
     <Content Include="Resources\Icon.ico" />
     <Content Include="Resources\Ikona do przerobienia na przeźroczystą.png" />
     <Content Include="Resources\Ikona przeźroczysta.bmp" />
+    <Content Include="Resources\sound.wav" />
     <None Include="Resources\Ikona przeźroczysta.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
