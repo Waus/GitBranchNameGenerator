@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <ApplicationIcon>Icon.ico</ApplicationIcon>
+    <ApplicationIcon>icon.ico</ApplicationIcon>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -90,10 +90,11 @@
     <None Include="Resources\hoho.wav" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\Icon.ico" />
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="Icon.ico" />
+    <Content Include="icon.ico" />
+    <None Include="Resources\icon.ico" />
+    <Content Include="Resources\Ikona do przerobienia na przeźroczystą.png" />
+    <Content Include="Resources\Ikona przeźroczysta.bmp" />
+    <None Include="Resources\Ikona przeźroczysta.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
